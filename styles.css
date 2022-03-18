@@ -1,0 +1,291 @@
+.bg {
+  background-image: url("homepicture.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: garamond, Helvetica, sans-serif;
+  font-size: 20px;
+  background: linear-gradient(to bottom, #e0ece1 0%, #a7cba9 100%);
+}
+
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  text-decoration: none;
+  width: 100%;
+  border-bottom: 0.5px solid black;
+}
+
+.topnav a {
+  color: black;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 20px 10px;
+  width: 25%;
+  font-family: garamond;
+}
+
+.topnav a:hover {
+  background-color: #5F8575;
+  color: black;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  background-color: #C8C8C8;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.navbar2 a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  font-size: 50px;
+  font-family: garamond;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar2 a:hover {
+  background-color: #C8C8C8;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.navbar a {
+  color: black;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 20px 10px;
+  width: 33.33%;
+}
+
+.navbar a:hover {
+  background-color: #C8C8C8;
+  color: white;
+  text-decoration: none;
+}
+
+div.a {
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 90px;
+}
+
+footer {
+  background-color: #C8C8C8;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -65px;
+  visibility: hidden;
+}
+
+div.gallery {
+  border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 0px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+figure {
+  width: 100%;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 5px;
+  float: left;
+  width: 33.33%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a, a:hover, a:focus, a:active { 
+  text-decoration: underline; 
+  color: inherit; 
+}
+
+.mySlides {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.image2 {
+  display: block;
+}
+
+.container {
+  position: relative;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 150px;
+}
+
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 150px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: grey;
+}
+
+.prev1:hover,
+.next1:hover {
+  background-color: grey;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: linear-gradient(to bottom, #e0ece1 0%, #a7cba9 100%);
+  padding: 2px 16px;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+}
+
+.demo {
+  opacity: 0.5;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.next,
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
